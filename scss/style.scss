@@ -8,7 +8,7 @@
 body {
   padding-top: 10px;
 }
-[class*="col-lg"]{
+[class*="col"]{
   background-color: lightgreen;
   border: 2px solid black;
   border-radius: 6px;
@@ -16,6 +16,13 @@ body {
   text-align: center;
 }
 
+[class*="col-sm"]{
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
 
 @media (min-width: 768px) {
   .container {
